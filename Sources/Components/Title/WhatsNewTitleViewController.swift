@@ -49,7 +49,7 @@ final class WhatsNewTitleViewController: UIViewController {
         let imageView = UIImageView()
         imageView.contentMode = .scaleAspectFit
         imageView.clipsToBounds = true
-        imageView.image = UIImage(named: "Vega")
+        imageView.image = UIImage(named: "logo_vega")
         imageView.setDimensions(width: 90, height: 90)
 
         return imageView
@@ -59,7 +59,7 @@ final class WhatsNewTitleViewController: UIViewController {
         let stackView = UIStackView(arrangedSubviews: [imageView, titleLabel])
         stackView.axis = .vertical
         stackView.distribution = .fillProportionally
-        stackView.spacing = 4
+        stackView.spacing = 18
 
         return stackView
     }()
